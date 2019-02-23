@@ -21,7 +21,7 @@ provisioner:
   lint:
     name: ansible-lint
     options:
-      v: ""
+      v: null
 scenario:
   name: default
 verifier:
