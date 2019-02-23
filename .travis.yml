@@ -13,6 +13,7 @@ env:
   - MOLECULE_DISTRO=centos7 MOLECULE_INIT_CMD=/lib/systemd/systemd
 install:
   - pip install docker molecule
+  - pip install ansible-lint==4.1.0
 
 script:
   - molecule test
